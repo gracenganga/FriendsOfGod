@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends Of God</title>
+    <!-- Linking the CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="fade-in">
+        <h1>Welcome to Friends Of God</h1>
+        <p>A community dedicated to faith, love, and service.</p>
+    </section>
+    
+    <section id="about" class="slide-in-left">
+        <h2>About Us</h2>
+        <p>Friends Of God is a faith-based community committed to spreading love, kindness, and spiritual growth.</p>
+    </section>
+    
+    <section id="services" class="slide-in-right">
+        <h2>Our Mission</h2>
+        <ul>
+            <li>Spiritual Growth</li>
+            <li>Community Support</li>
+            
+        </ul>
+    </section>
+    
+    <section id="contact" class="fade-in">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="form-response" style="display:none; color: green;">Thank you for reaching out!</p>
+    </section>
+</body>
+</html>
