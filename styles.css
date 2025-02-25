@@ -73,3 +73,59 @@ section {
     0% { transform: translateX(100%); opacity: 0; }
     100% { transform: translateX(0); opacity: 1; }
 }
+/* Faith Over Fear Section */
+#faith-over-fear {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.faith-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.faith-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+}
+
+.faith-box h3 {
+    color: #333;
+}
+
+.faith-box ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+#faith-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#faith-form input, #faith-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#faith-form button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#faith-form button:hover {
+    background: #0056b3;
+}
+
